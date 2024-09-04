@@ -16,9 +16,13 @@ Por fim, verifica se alguma das apostas ganhou em algum dos sorteios. Pelas regr
 
 Melhorias que eu quero fazer nesse script, mas não sei quando vou ter tempo (honestamente ele não é minha prioridade). Se quiser ajudar com isso, seria ótimo!
 
-1. Baixar automaticamente do site da Caixa o xls com os resultados, bastando informar então um range de concursos. Infelizmente eles não disponibilzam uma API. Esse xls pode ser baixado manualmente na página de resultados (perto do final da página), mas não há uma URL direta para fazer isso. Parece que complicaram de propósito.
+1. Baixar automaticamente do site da Caixa os resultados, bastando informar então no código o range de concursos. Existe um xls que pode ser baixado manualmente na página de resultados (perto do final da página), mas não há uma URL direta para fazer isso. Também descobri que [existe uma API](API-Caixa.md) para baixar os resultados (sem suporte nem documentação).
 2. Atender a regras de várias loterias, como Mega-Sena, Lotofácil, etc.
 3. Montar uma interface gráfica (web, talvez) para o usuário escolher com o mouse os números que compõem cada aposta.
+
+
+
+
 
 ---
 
